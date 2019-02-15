@@ -139,7 +139,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         let data = self.dataArray[indexPath.row]
         cell.titleLabel.text = data.title ?? ""
         cell.bodyLabel.text =  data.body ?? ""
-        print(data.id)
+        
         return cell
     }
 }
